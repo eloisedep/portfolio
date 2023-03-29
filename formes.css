@@ -1,0 +1,130 @@
+html { 
+    background: url(bgimgmain2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+/*.menu {
+    font-family: Courier New;
+    display: flex;               Transformation en flexbox 
+    padding:0;                   Suppression des marges internes 
+    background-color: #FFFFFF;      Ajout de la couleur d'arrière-plan 
+    justify-content: center      Alignements des liens dans le menu 
+} 
+.menu li {
+    list-style-type: none ;        Suppression des puces 
+}
+.menu a {
+    display:block;                 Transformation en block 
+    min-width: 120px;              Largeur minimale des liens 
+}
+.menu a {
+    display:block;                 Transformation en block 
+    min-width: 120px;              Largeur minimale des liens    
+    
+    margin: 0.5rem;                Marges externes (1 valeurs = 4 directions) 
+    padding: 0.4rem 0;             Marges internes (2 valeurs = haut/bas et gauche/droite)
+    text-align: center;            Centrage du texte    
+    background-color: #8662A5;     Couleur d'arrière-plan 
+    color: #fff;                   Couleur du texte 
+    text-decoration: none;         Suppression du soulignement 
+    border: 1px solid #fff;        Ajout d'une bordure 
+    border-radius: 4px;            Arrondis des bordures 
+    transition: all 1s ;           Ajout des effets de transition 
+}
+.menu a:hover {
+  background-color: #6FB6D6;
+  color: #ffe843;
+  border-color: #ffe843;
+} */
+
+
+
+.body{
+    font-family: Courier New;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+.survol_cv a{
+    position:relative;
+ }
+ .survol_cv a span{
+    position:static; 
+    display:none; 
+    z-index:99;
+ }
+ .survol_cv a:hover span{
+    display:block;
+ }
+
+ .survol_ref a{
+    position:relative;
+ }
+ .survol_ref a span{
+    position:static; 
+    display:none; 
+    z-index:99;
+ }
+ .survol_ref a:hover span{
+    display:block;
+ }
+
+ .survol_linkedin a{
+    position:relative;
+ }
+ .survol_linkedin a span{
+    position:static; 
+    display:none; 
+    z-index:99;
+ }
+ .survol_linkedin a:hover span{
+    display:block;
+ }
+p{
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+img{
+    vertical-align: center;
+}
