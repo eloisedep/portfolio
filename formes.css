@@ -1,0 +1,109 @@
+html { 
+    background: url(images/white.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  h1{
+      text-align: center;
+      font-weight: bold;
+      color:gray;
+  }
+      h2{
+      text-align: center;
+      font-style: italic;
+      font-weight: bold;
+      color:palevioletred;
+  }
+/* Style the navbar */
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.menu {
+    display: flex;               
+    padding:0;                     
+    justify-content: center       
+} 
+.menu li {
+    list-style-type: none ;         
+}
+.menu a {
+    display:block;                  
+    min-width: 120px;               
+}
+.menu a {
+    display:block;                  
+    min-width: 120px;                 
+    
+    margin: 0.5rem;                
+    padding: 0.4rem 0;             
+    text-align: center;                
+    background-color: palevioletred;     
+    color: #fff;                   
+    text-decoration: none;         
+    border: 1px solid #fff;      
+    border-radius: 4px;            
+    transition: all 0.3s ;           
+}
+.menu a:hover {
+  background-color:whitesmoke;
+  color: gray;
+  border-color: gray;
+} */
+
+
+.survol_cv a{
+    position:relative;
+ }
+ .survol_cv a span{
+    position:static; 
+    display:none; 
+    z-index:99;
+ }
+ .survol_cv a:hover span{
+    display:block;
+ }
+
+ .survol_ref a{
+    position:relative;
+ }
+ .survol_ref a span{
+    position:static; 
+    display:none; 
+    z-index:99;
+ }
+ .survol_ref a:hover span{
+    display:block;
+ }
+
+ .survol_linkedin a{
+    position:relative;
+ }
+ .survol_linkedin a span{
+    position:static; 
+    display:none; 
+    z-index:99;
+ }
+ .survol_linkedin a:hover span{
+    display:block;
+ }
+
+
+
+p{
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+img{
+    vertical-align: center;
+}
